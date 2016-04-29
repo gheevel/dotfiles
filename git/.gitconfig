@@ -43,6 +43,7 @@
     pl = pull --rebase origin master
     ps = push
     ckb = checkout -b
+    cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
 
 [push]
 	default = current
