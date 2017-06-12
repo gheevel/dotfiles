@@ -1,6 +1,6 @@
 [user]
-    name = Erik van Wingerden
-    email = eriwinnl@gmail.com
+    name = Gillis Heevel
+    email = g.heevel@bkvgroup.eu
 
 [color]
     ui = auto
@@ -29,7 +29,7 @@
     editor = vim
     autocrlf = false
     whitespace = trailing-space,space-before-tab
-    excludesfile = /home/vagrant/.gitignore_global
+	excludesfile = /home/vagrant/.gitignore_global
 
 [diff "exif"]
     textconv = exiftool
